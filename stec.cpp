@@ -58,4 +58,8 @@ public:
 	char size(){
 		return numb;
 	}
+	void free (){
+		while (numb>0)
+			pop();
+	}
 };   
