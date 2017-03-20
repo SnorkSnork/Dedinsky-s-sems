@@ -34,7 +34,7 @@ int main(){
 	printf ("COMPILATION\n");
 	int cmdnum=0;
 	int stop=0;
-
+	
 	char push[]{'p','u','s','h','\0'};
 	char push_ax[]{'p','u','s','h','a','x','\0'};
 	char push_bx[]{'p','u','s','h','b','x','\0'};
