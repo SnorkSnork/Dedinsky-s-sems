@@ -62,9 +62,9 @@ int main(){
 		char* cmd=new char[CMDLEN];
 		fscanf(input, "%s", cmd);
 		if (same(cmd, push)){
-			int numb;
-			fscanf(input, "%d", &numb);
-			fprintf (prog, "10 %d ", numb);
+			float numb;
+			fscanf(input, "%f", &numb);
+			fprintf (prog, "10 %f ", numb);
 		}
 		else if (same(cmd, push_ax))
 			fprintf (prog, "1a ");
