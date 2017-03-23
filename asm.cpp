@@ -57,7 +57,7 @@ int main(){
 	char halt[]{'h','a','l','t','\0'};
 	
 //TODO:jump
-
+	
 	while ((!feof(input))&&!(stop)) {
 		++cmdnum;
 		char* cmd=new char[CMDLEN];
